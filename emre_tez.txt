@@ -1,0 +1,81 @@
+RASYON BEKLENTİLERİ
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace CowteC1
+{
+    public partial class RasyonBeklentileri9 : Form
+    {
+        public RasyonBeklentileri9()
+        {
+            InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            BigiKayit10 frm14 = new BigiKayit10();
+            frm14.Show();
+            this.Hide();
+        }
+    }
+}
+
+
+BİLGİ KAYIT EKRANI
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace CowteC1
+{
+    public partial class BigiKayit10 : Form
+    {
+        public BigiKayit10()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CiftlikBilgisi5 frm10 = new CiftlikBilgisi5();
+            frm10.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SaglikBilgisi6 frm11 = new SaglikBilgisi6();
+            frm11.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SutinekBilgiGirisi7 frm12 = new SutinekBilgiGirisi7();
+            frm12.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            YemlerinOnerilmesi8 frm9 = new YemlerinOnerilmesi8();
+            frm9.Show();
+            this.Hide();
+        }
+    }
+}
